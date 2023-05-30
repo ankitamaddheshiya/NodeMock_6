@@ -21,7 +21,7 @@ app.use("/",bookingRouter)
 app.use("/flights",flightRouter)
 
 
-app.listen(process.env.port,()=>{
+app.listen(3000,()=>{
     try{
         connection
         console.log("Server is running at port 3000")
